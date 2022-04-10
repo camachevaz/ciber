@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Capacítate para adoptar mejores prácticas y hábitos seguros en tus actividades en línea.'
 description: null
 image: null
 author: null
