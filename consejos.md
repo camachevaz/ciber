@@ -3,6 +3,7 @@ layout: allposts
 title: Consejos
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
+permalink: /consejos/
 nav-menu: true
 ---
 
