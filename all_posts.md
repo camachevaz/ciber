@@ -1,7 +1,7 @@
 ---
 layout: allposts
-title: All posts
-landing-title: 'All posts'
+title: Todas las publicaciones
+landing-title: 'Todas las publicaciones'
 nav-menu: true
 description: null
 image: null
