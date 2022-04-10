@@ -2,7 +2,7 @@
 title: Certificados digitales
 layout: landing
 description: 'Todos los cursos ofrecen validacion mediante certificados digitales de Badgr.io'
-image: assets/images/pic07.jpg
+image: assets/images/certificados.jpg
 permalink: /certificados/
 nav-menu: true
 ---
