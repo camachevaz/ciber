@@ -4,7 +4,7 @@ subtitle: Adquiriere hábitos seguros en el ciberespacio
 email: ciberseguridad@asesoreducativo.mx
 description: Capacítate para adoptar mejores prácticas y hábitos seguros en tus actividades en línea.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: http://ciberseguridad.asesoreducativo.mx/ # the base hostname & protocol for your site
+url: http://ciberseguridad.asesoreducativo.mx # the base hostname & protocol for your site
 author:
 street_address: 
 city: Mexicali
