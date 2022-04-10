@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cursos
-image: assets/images/pic01.jpg
+image: assets/images/cursos.jpg
 nav-menu: true
 permalink: /cursos/
 ---
