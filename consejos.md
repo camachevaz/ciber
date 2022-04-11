@@ -1,7 +1,7 @@
 ---
 layout: allposts
 title: Consejos
-description: Lorem ipsum dolor est
+description: Manténte seguro con las últimas actualizaciones en ciberseguridad.
 image: assets/images/consejos.jpg
 permalink: /consejos/
 nav-menu: true
