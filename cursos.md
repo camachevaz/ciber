@@ -34,10 +34,4 @@ permalink: /cursos/
 	{% endif %}
 {% endfor %}
 
-
-<h2 id="content"></h2>
-<div class="row">
-</div>
-
-<hr class="major" />
 </div>
