@@ -20,7 +20,7 @@ permalink: /cursos/
 <!-- Content -->
 
 {% for post in site.posts %}
-	{% if post.title != 404 and post.category == "curso	" %}
+	{% if post.title != 404 and post.category == "curso" %}
 		<header class="major">
 		<h1>{{ post.title }}</h1>
 		</header>
