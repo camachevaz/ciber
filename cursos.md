@@ -18,6 +18,23 @@ permalink: /cursos/
 		</header>
 
 <!-- Content -->
+
+{% for post in site.posts %}
+	{% if post.title != 404 and post.category == "curso" %}
+		<header class="major">
+		<h1>{{ post.title }}</h1>
+		</header>
+		{% if post.image %}
+			<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
+		{% endif %}
+		{% if post.date %}
+			<p>{{ post.date }}</p>
+		{% endif %}
+		<p>{{ post.content }}</p>
+	{% endif %}
+{% endfor %}
+
+
 <h2 id="content">Sample Content</h2>
 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 <div class="row">
