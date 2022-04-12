@@ -22,7 +22,7 @@ permalink: /cursos/
 {% for post in site.posts %}
 	{% if post.title != 404 and post.category == "curso" %}
 		<header class="major">
-		<h1>{{ post.title }}</h1>
+		<h2>{{ post.title }}</h2>
 		</header>
 		{% if post.image %}
 			<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
