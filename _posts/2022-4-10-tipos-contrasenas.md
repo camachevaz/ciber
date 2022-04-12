@@ -6,5 +6,3 @@ image: assets/images/posts/tipos-contrasenas-01.jfif
 date: 2022-04-10 15:30:22 -0700
 category: post
 ---
-
-# "Tu contraseña debe tener mayúsculas, minúsculas, números, y signos...
