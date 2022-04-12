@@ -45,8 +45,4 @@ permalink: /cursos/
 </div>
 
 <hr class="major" />
-
-
-</section>
-
 </div>
