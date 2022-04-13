@@ -21,7 +21,7 @@ permalink: /cursos/
 
 {% assign vez = 0 %}
 {% for post in site.posts %}
-	{{ vez | plus: 1}}
+	{% incremente vez %}
 	{% if vez | modulo: 2 == 1 %}
 		<p>Modulus: {{ vez | moudlo: 2 }}</p>
 		<div class="row">
