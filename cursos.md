@@ -24,7 +24,7 @@ permalink: /cursos/
 	{% increment vez %}
 
 	{% if post.title != 404 and post.category == "curso" %}
-
+---
 		<div class="6u 12u$(small)">
 			<h3>{{ post.title }}</h3>
 			{% if post.image %}
@@ -32,7 +32,7 @@ permalink: /cursos/
 			{% endif %}
 			<p>{{ post.description }}</p>
 		</div>
-
+---
 	{% endif %}
 {% endfor %}
 
