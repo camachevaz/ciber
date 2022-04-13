@@ -23,12 +23,9 @@ permalink: /cursos/
 	{% if post.title != 404 and post.category == "curso" %}
 		<a href="{{ post.url | absolute_url }}">
 			<div class="12u 12u$(medium)">
+				<p class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></p>
 				<h3>{{ post.title }}</h3>
-				<p>
-				{% if post.image %}
-					<span class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
-				{% endif %}
-				{{ post.description }}</p>
+				<p>{{ post.description }}</p>
 			</div>
 		</a>
 	{% endif %}
