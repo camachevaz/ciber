@@ -19,18 +19,25 @@ permalink: /cursos/
 
 <!-- Content -->
 
+{% assign vez = 0 %}
 {% for post in site.posts %}
+	{{ vez | plus: 1}}
+	{% if vez | modulo: 2 == 1 %}
+		<div class="row">
+	{% endif %}
+	
 	{% if post.title != 404 and post.category == "curso" %}
-		<header class="major">
-		<h2>{{ post.title }}</h2>
-		</header>
-		{% if post.image %}
-			<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
-		{% endif %}
-		{% if post.date %}
-			<p>{{ post.date }}</p>
-		{% endif %}
-		<p>{{ post.content }}</p>
+		<div class="6u 12u$(small)">
+			<h3>{{ post.title }}</h3>
+			{% if post.image %}
+				<p><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></p>
+			{% endif %}
+			<p>{{ post.description }}</p>
+		</div>
+	{% endif %}
+
+	{% if vez | modulo: 2 == 0 %}
+		</div>
 	{% endif %}
 {% endfor %}
 
