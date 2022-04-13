@@ -5,4 +5,5 @@ description: De cero a Ninja, conoce todas las herramientas, hábitos, y aplicac
 image: assets/images/posts/tipos-contrasenas-01.jfif
 date: 2022-04-12 17:28:41 -0700
 category: curso
+permalink: /cursos/ninja-seguridad/
 ---

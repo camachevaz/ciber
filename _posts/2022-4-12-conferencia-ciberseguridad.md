@@ -5,4 +5,5 @@ description: Plática concisa y amena cpm el objetivo de sensibilizar a los asis
 image: assets/images/posts/tipos-contrasenas-01.jfif
 date: 2022-04-12 17:26:41 -0700
 category: curso
+permalink: /cursos/conferencia-ciberseguridad/
 ---
