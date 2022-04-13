@@ -26,21 +26,13 @@ permalink: /cursos/
 		{% increment vez %}
 		{% assign moduloVez = vez | modulo: 2 %}
 
-		{% unless moduloVez == 0 %}
-			INICIA FILA
-		{% endunless %}
-
 		<div class="6u 12u$(small)">
-			<h3>{{ post.title }}</h3>
+			<h3>{{ post.title }}. VEZ {{ vez }}, MODULO{{ moduloVez }}</h3>
 			{% if post.image %}
 				<p><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></p>
 			{% endif %}
 			<p>{{ post.description }}</p>
 		</div>
-
-		{% if moduloVez == 0 %}
-			TERMINA FILA
-		{% endif %}
 
 	{% endif %}
 {% endfor %}
