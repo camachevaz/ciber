@@ -22,8 +22,14 @@ contador: 0
 {% for post in site.posts %}
 	{% increment page.contador %}
 	{% if post.title != 404 and post.category == "curso" %}
+		{% assign value = site.contador | modulo:2 %}
+		{% if value == 0 %}
+			non
+		{% else %}
+			par
+		{% endif %}
 		<div class="6u 12u$(small)">
-			<h3>{{ post.title }} - {{ page.contador }}...</h3>
+			<h3>{{ post.title }}</h3>
 			{% if post.image %}
 				<p><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></p>
 			{% endif %}
