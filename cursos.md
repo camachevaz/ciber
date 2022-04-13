@@ -26,8 +26,7 @@ permalink: /cursos/
 		{% increment vez %}
 
 		{% if vez | modulo: 2 == 1 %}
-			<div class="row">
-			<p>Inicio modulo vez: {{ vez | modulo: 2 }}</p>
+			INICIA FILA
 		{% endif %}
 
 		<div class="6u 12u$(small)">
@@ -39,9 +38,8 @@ permalink: /cursos/
 		</div>
 
 		{% if vez | modulo: 2 == 0 %}
-			<p>Fin modulo vez: {{ vez | modulo: 2 }}</p>
-		</div>
-	{% endif %}
+			TERMINA FILA
+		{% endif %}
 
 	{% endif %}
 {% endfor %}
