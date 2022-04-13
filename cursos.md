@@ -5,7 +5,6 @@ description: Conoce la oferta educativa completa.
 image: assets/images/cursos.jpg
 nav-menu: true
 permalink: /cursos/
-contador: 0
 ---
 
 <!-- Main -->
