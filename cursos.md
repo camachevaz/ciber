@@ -20,7 +20,7 @@ permalink: /cursos/
 <!-- Content -->
 {% for post in site.posts %}
 	{% if post.title != 404 and post.category == "curso" %}
-		<div class="12u 12u$(large)">
+		<div class="12u 12u$(medium)">
 			<h3>{{ post.title }}</h3>
 			{% if post.image %}
 				<p><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></p>
