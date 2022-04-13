@@ -22,10 +22,11 @@ permalink: /cursos/
 	{% if post.title != 404 and post.category == "curso" %}
 		<div class="12u 12u$(medium)">
 			<h3>{{ post.title }}</h3>
+			<p>
 			{% if post.image %}
-				<p><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></p>
+				<span class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
 			{% endif %}
-			<p>{{ post.description }}</p>
+			{{ post.description }}</p>
 		</div>
 	{% endif %}
 {% endfor %}
