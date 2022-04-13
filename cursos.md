@@ -24,7 +24,7 @@ permalink: /cursos/
 		<a href="{{ post.url | absolute_url }}">
 			<div class="12u 12u$(medium)">
 				<p class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></p>
-				<h3>{{ post.title }}</h3>
+				<h2>{{ post.title }}</h2>
 				<p>{{ post.description }}</p>
 			</div>
 		</a>
