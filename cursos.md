@@ -24,10 +24,11 @@ permalink: /cursos/
 	{% if post.title != 404 and post.category == "curso" %}
 
 		{% increment vez %}
+		{% assign moduloVez = vez | modulo: 2 %}
 
-		{% if vez | modulo: 2 == 1 %}
+		{% unless moduloVez == 0 %}
 			INICIA FILA
-		{% endif %}
+		{% endunless %}
 
 		<div class="6u 12u$(small)">
 			<h3>{{ post.title }}</h3>
@@ -37,7 +38,7 @@ permalink: /cursos/
 			<p>{{ post.description }}</p>
 		</div>
 
-		{% if vez | modulo: 2 == 0 %}
+		{% if moduloVez == 0 %}
 			TERMINA FILA
 		{% endif %}
 
