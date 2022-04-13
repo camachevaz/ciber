@@ -21,13 +21,15 @@ permalink: /cursos/
 
 {% assign vez = 0 %}
 {% for post in site.posts %}
-	{% increment vez %}
-	{% if vez | modulo: 2 == 1 %}
-		<p>Inicio vez: {{ vez }}</p>
-		<div class="row">
-	{% endif %}
-	
 	{% if post.title != 404 and post.category == "curso" %}
+	
+		{% increment vez %}
+
+		{% if vez | modulo: 2 == 1 %}
+			<p>Inicio vez: {{ vez }}</p>
+			<div class="row">
+		{% endif %}
+
 		<div class="6u 12u$(small)">
 			<h3>{{ post.title }}</h3>
 			{% if post.image %}
@@ -35,11 +37,12 @@ permalink: /cursos/
 			{% endif %}
 			<p>{{ post.description }}</p>
 		</div>
+
+		{% if vez | modulo: 2 == 0 %}
+			<p>Fin vez: {{ vez }}</p>
+		</div>
 	{% endif %}
 
-	{% if vez | modulo: 2 == 0 %}
-		<p>Fin vez: {{ vez }}</p>
-		</div>
 	{% endif %}
 {% endfor %}
 
