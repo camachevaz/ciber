@@ -22,7 +22,7 @@ permalink: /cursos/
 <div class="row">
 	{% if post.title != 404 and post.category == "curso" %}
 		<a href="{{ post.url | absolute_url }}">
-			<div class="12u 12u$(medium) box">
+			<div class="12u 12u$(medium)">
 				<h3>{{ post.title }}</h3>
 				<p>
 				{% if post.image %}
