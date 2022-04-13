@@ -19,6 +19,7 @@ permalink: /cursos/
 
 <!-- Content -->
 {% for post in site.posts %}
+<div class="row">
 	{% if post.title != 404 and post.category == "curso" %}
 		<div class="12u 12u$(medium)">
 			<h3>{{ post.title }}</h3>
@@ -29,6 +30,7 @@ permalink: /cursos/
 			{{ post.description }}</p>
 		</div>
 	{% endif %}
+</div>
 {% endfor %}
 
 </div>
