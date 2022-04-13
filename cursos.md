@@ -23,7 +23,7 @@ permalink: /cursos/
 {% for post in site.posts %}
 	{% incremente vez %}
 	{% if vez | modulo: 2 == 1 %}
-		<p>Modulus: {{ vez | moudlo: 2 }}</p>
+		<p>Modulus: {{ vez }}</p>
 		<div class="row">
 	{% endif %}
 	
@@ -38,7 +38,7 @@ permalink: /cursos/
 	{% endif %}
 
 	{% if vez | modulo: 2 == 0 %}
-		<p>Modulus: {{ vez | moudlo: 2 }}</p>
+		<p>Modulus: {{ vez }}</p>
 		</div>
 	{% endif %}
 {% endfor %}
