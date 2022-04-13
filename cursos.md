@@ -5,7 +5,6 @@ description: Conoce la oferta educativa completa.
 image: assets/images/cursos.jpg
 nav-menu: true
 permalink: /cursos/
-contador: 0
 ---
 
 <!-- Main -->
@@ -20,15 +19,8 @@ contador: 0
 
 <!-- Content -->
 {% for post in site.posts %}
-	{% increment page.contador %}
 	{% if post.title != 404 and post.category == "curso" %}
-		{% assign value = site.contador | modulo:2 %}
-		{% if value == 0 %}
-			non
-		{% else %}
-			par
-		{% endif %}
-		<div class="6u 12u$(small)">
+		<div class="12u 12u$(large)">
 			<h3>{{ post.title }}</h3>
 			{% if post.image %}
 				<p><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></p>
