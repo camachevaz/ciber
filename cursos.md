@@ -28,6 +28,7 @@ permalink: /cursos/
 				<span class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
 			{% endif %}
 			{{ post.description }}</p>
+			<p><a href="{{ post.url | absolute_url }}">Ver más&hellip;</a></p>
 		</div>
 	{% endif %}
 </div>
