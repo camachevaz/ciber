@@ -20,6 +20,7 @@ contador: 0
 
 <!-- Content -->
 {% for post in site.posts %}
+	{% increment page.contador %}
 	{% if post.title != 404 and post.category == "curso" %}
 		<div class="6u 12u$(small)">
 			<h3>{{ post.title }} - {{ page.contador }}</h3>
