@@ -67,7 +67,7 @@ nav-menu: true
 				</header>
 				<p>Taller intensivo de cero a Ninja, los asistentes conocerán herramientas, hábitos, y aplicaciones para convertirse enexpertos en el cuidado de sus datos personales, confidenciales, y su privacidad en línea.</p>
 				<ul class="actions">
-					<li><a href="/servicios/ninja-seguridad/" class="button">Learn more</a></li>
+					<li><a href="/servicios/ninja-seguridad/" class="button">Ver más</a></li>
 				</ul>
 			</div>
 		</div>
