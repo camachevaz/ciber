@@ -74,6 +74,7 @@ nav-menu: true
 	</section>
 </section>
 
+{% comment %}
 <!-- Three -->
 <section id="three">
 	<div class="inner">
@@ -86,5 +87,6 @@ nav-menu: true
 		</ul>
 	</div>
 </section>
+{% endcomment %}
 
 </div>
