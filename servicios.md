@@ -10,7 +10,6 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-{% comment %}
 <!-- One -->
 <section id="one">
 	<div class="inner">
@@ -20,7 +19,6 @@ nav-menu: true
 		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 	</div>
 </section>
-{% endcomment %}
 
 <!-- Two -->
 <section id="two" class="spotlights">
@@ -74,7 +72,6 @@ nav-menu: true
 	</section>
 </section>
 
-{% comment %}
 <!-- Three -->
 <section id="three">
 	<div class="inner">
@@ -87,6 +84,5 @@ nav-menu: true
 		</ul>
 	</div>
 </section>
-{% endcomment %}
 
 </div>
