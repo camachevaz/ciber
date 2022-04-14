@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: allposts
 title: Consejos
 permalink: /consejos/
 description: Mantente al día con las últimas noticias
