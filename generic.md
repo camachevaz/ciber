@@ -1,9 +1,8 @@
 ---
-layout: allposts
-title: Consejos
-description: Manténte seguro con las últimas actualizaciones en ciberseguridad.
-image: assets/images/consejos.jpg
-permalink: /consejos/
+layout: post
+title: Generic
+description: Lorem ipsum dolor est
+image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
