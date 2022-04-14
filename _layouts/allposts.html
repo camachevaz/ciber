@@ -20,7 +20,7 @@
       <section id="one">
 	<div class="inner">
           {% for post in site.posts %}
-	  {% if post.title != 404 %}
+	  {% if post.title != 404 and post.category == "post" %}
 	  <header class="major">
 	    <h1>{{ post.title }}</h1>
 	  </header>
