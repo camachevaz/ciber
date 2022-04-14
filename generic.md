@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Consejos
+permalink: /consejos/
+description: Mantente al día con las últimas noticias
+image: assets/images/consejos.jpg
 nav-menu: true
 ---
 

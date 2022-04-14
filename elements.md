@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: Certificados digitales
+permalink: /certificados/
+description: Constancias electrónicas emitidas en badgr.io
+image: assets/images/certificados.jpg
 nav-menu: true
 ---
 
